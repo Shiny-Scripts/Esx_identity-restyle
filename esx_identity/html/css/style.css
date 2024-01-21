@@ -1,0 +1,180 @@
+
+/* restyled by alfro with Love
+
+  ,d88b.d88b,
+  88888888888
+  `Y8888888Y'
+    `Y888Y'   
+      `Y' 
+	  
+	  */
+	  
+@import url('https://fonts.cdnfonts.com/css/poppins');
+
+*{
+   box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+margin:0;
+padding:0;
+user-select: none;
+}
+
+body {
+	font-family: sans-serif;
+	overflow: hidden;
+display: none;
+}
+
+.container{
+	width: 53vw;
+	height: 50vh;
+	border-radius: 1.5%;
+	position: absolute;
+	left: 23%;
+	top: 25%;
+	background: #1f1f1f;
+	outline: none;
+	overflow: hidden;
+}
+
+.titolo{
+	color: #f5deb3;
+	text-transform: uppercase;
+	position: relative;
+	left: 2vh;
+	font-size: 3vh;
+}
+
+
+
+.radio-toolbar input[type="radio"] {
+    opacity: 0;
+    position: absolute;
+ width: 12vw;
+}
+
+.radio-toolbar label {
+	position: relative;
+    display: inline-block;
+    top: 3.2vh;
+	background-size: cover;
+	background: #141414;
+   
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    color: #ffffff;
+    border: none;
+    border-radius: 1vh;
+    width: 12vw;
+    height: 34vh;
+	
+	transition: 0.5s;
+}
+ .radio-toolbar .femmina {
+	background-size: cover;
+	background-position: -1vh;
+    background-image: url("https://cdn.discordapp.com/attachments/990051047655501854/1196142113482625204/FEMALE.png?ex=65b68d27&is=65a41827&hm=267596a869773c48af6215408281863bfb9b311b5e989e359009761704fae42d&");
+
+}
+.radio-toolbar .maschio {
+	background-size: cover;
+	margin-right: 1.4vh;
+	margin-left: 1.4vh;
+    background-image: url("https://cdn.discordapp.com/attachments/990051047655501854/1196145067740631110/male.png?ex=65b68fe7&is=65a41ae7&hm=c5b9566c9078bd624e465145aa2e87127121e9bef09a269fd7672f689f12fa39&");
+
+} 
+
+
+.radio-toolbar input[type="radio"]:checked + label {
+	background-color: rgba(15, 15, 15, 0.9);
+    border: none;
+    border-bottom: 0.2vh solid #f5deb3;
+    border-radius: 1vh;
+    color: #ffffff;
+	box-shadow: 10px 10px 20px #2c2c2c;	
+}
+
+.radio-toolbar input[type="radio"]:focus + label {
+    background-color: rgba(15, 15, 15, 0.9);
+    border: none;
+    border-bottom: 0.2vh solid #f5deb3;
+    border-radius: 1vh;
+    color: #ffffff;
+	box-shadow: 10px 10px 20px #2c2c2c;		
+
+}
+
+.radio-toolbar label:hover {
+  box-shadow: 1px 1px 5px #2c2c2c;
+
+   
+}
+
+
+.form-destra{
+	position: relative;
+	overflow: hidden;
+	top: -32.5vh;
+	color: wheat;
+	font-size: 1.5vh;
+	text-transform: uppercase;
+	left: 55%;
+}
+
+
+.form-destra input{
+	margin-bottom: 2vh;
+	width: 39%;
+	height: 5vh;
+	font-size: 1.4vh;
+	border-radius: 1vh;
+	outline: none;
+	border: none;
+	text-align: left;
+	background: #141414;
+	color: #f5deb3;
+	transition: 0.5s;
+}
+
+.form-destra input:focus{
+	box-shadow: 10px 10px 20px #2c2c2c;	
+}
+
+::placeholder{
+	color: rgba(245, 222, 179, 0.479);
+	font-size: 1.6vh;
+
+}
+
+#submit{
+	
+	position: relative;
+	margin-top: 1vh;
+	width: 10vw;
+	height: 5vh;
+	left:8%;
+	border-radius: 1vh;
+	border: none;
+	outline: none;
+	background: #141414;
+	color: wheat; 
+	transition: 1s;
+	font-size:2vh;
+	text-transform: uppercase;
+}
+
+#submit:hover{
+	
+	transform: scale(1.04);
+}
+
+
+/* restyled by alfro with Love
+
+  ,d88b.d88b,
+  88888888888
+  `Y8888888Y'
+    `Y888Y'   
+      `Y' 
+	  
+	  */
