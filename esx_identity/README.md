@@ -4,7 +4,7 @@ A Core Resource that Allows the player to Pick their characters, Name, Gender, H
 
 
 # Infomation
-
+![Preview](./preview.png)
 ## Requirements
 
 [esx_skin](./../esx_skin/README.md)
