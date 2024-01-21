@@ -1,7 +1,7 @@
-<h1 align='center'>[ESX] Identity</a></h1><p align='center'><b><a href='https://discord.gg/q7MD5rr74S'>Discord</a> - <a href='https://documentation.esx-framework.org/legacy/installation'>Documentation</a></b></h5>
+<h1 align='center'>[ESX] Identity</a></h1><p align='center'><b><a href='[https://discord.gg/q7MD5rr74S](https://discord.gg/agvfRsEWBA)'>Discord</a> - <a href='https://documentation.esx-framework.org/legacy/installation'>Documentation</a></b></h5>
 
 A Core Resource that Allows the player to Pick their characters, Name, Gender, Height and Date-of-birth.
-
+restyled by alfro
 
 # Infomation
 ![Preview](./preview.png)
